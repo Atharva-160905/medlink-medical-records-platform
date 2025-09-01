@@ -45,7 +45,7 @@ LLM_PROVIDER=cohere
 ## Deployment
 
 This project is deployed on:
-- **Frontend**: Vercel - [Live App](https://medlink-medical-records-platform-bk7yugczu.vercel.app)
+- **Frontend**: Vercel 
 - **Backend**: Convex - Real-time database and AI functions
 
 ## License
