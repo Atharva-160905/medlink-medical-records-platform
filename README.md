@@ -4,7 +4,7 @@ A modern medical records management platform built with React, Convex, and AI-po
 
 ## 🌐 Live Demo
 
-**🚀 [Access Live App](https://medlink-medical-records-platform-bk7yugczu.vercel.app)**
+**🚀 [Access Live App](https://medlink-medical-records-platform.vercel.app/#)**
 
 ## Features
 
