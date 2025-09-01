@@ -1,19 +1,56 @@
-# MedLink Medical Records Platform
-  
-A secure digital health records platform that connects patients and healthcare providers through encrypted medical record sharing. Built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
+# 🏥 MedLink Medical Records Platform
+
+A modern medical records management platform built with React, Convex, and AI-powered analysis.
+
+## 🌐 Live Demo
+
+**🚀 [Access Live App](https://medlink-medical-records-platform-bk7yugczu.vercel.app)**
 
 ## Features
 
-- **Professional Landing Page**: Modern, responsive homepage with clear value proposition
-- **Secure Authentication**: Patient and doctor account management with role-based access
-- **Medical Record Management**: Upload, organize, and share medical records securely
-- **Access Control**: Patients can grant and revoke access permissions to healthcare providers
-- **Real-time Updates**: Instant synchronization of medical records across the platform
-- **Mobile Responsive**: Optimized for all device sizes
+- Patient and Doctor dashboards
+- Medical document upload and storage
+- OCR text extraction from images and PDFs
+- AI-powered medical report summaries
+- Real-time data synchronization
+- Secure authentication system
+
+## Tech Stack
+
+- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS
+- **Backend**: Convex (real-time database, authentication, file storage)
+- **AI**: Cohere API for medical text analysis
+- **OCR**: Tesseract.js for document text extraction
 
 ## Getting Started
 
-This project is connected to the Convex deployment named [`notable-okapi-371`](https://dashboard.convex.dev/d/notable-okapi-371).
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up Convex: `npx convex dev`
+4. Start the development server: `npm run dev`
+
+## Environment Variables
+
+Create a `.env.local` file with:
+```
+VITE_CONVEX_URL=your_convex_deployment_url
+```
+
+Set in Convex dashboard:
+```
+AI_API_KEY=your_cohere_api_key
+LLM_PROVIDER=cohere
+```
+
+## Deployment
+
+This project is deployed on:
+- **Frontend**: Vercel - [Live App](https://medlink-medical-records-platform-bk7yugczu.vercel.app)
+- **Backend**: Convex - Real-time database and AI functions
+
+## License
+
+MIT License
 
 ## Development Notes
 
